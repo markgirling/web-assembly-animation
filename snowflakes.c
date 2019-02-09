@@ -3,7 +3,7 @@
 #define PIXEL_SIZE 2
 #define NUM_SNOWFLAKES 100
 
-// This external functions are defined at runtime in JS
+// These external functions are defined at runtime in JS
 extern void fill_canvas(char *colour, int x, int y, int w, int h);
 extern int rand_num(int max);
 
